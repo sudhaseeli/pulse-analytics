@@ -31,3 +31,12 @@ All metrics are deterministic sample data, not live customer analytics. Date ran
 - `src/analytics.ts`: sample data, aggregation, and CSV formatting
 - `src/analytics.test.ts`: data and export tests
 - `src/style.css`: responsive styling
+
+## Power BI and Salesforce dashboards
+
+Use the dashboard switcher above the overview to open the new Power BI revenue and Salesforce pipeline pages. Salesforce includes an owner filter that updates its metrics, chart, and opportunity table. Both previews are explicitly labeled sample data.
+
+- [`integrations/power-bi`](integrations/power-bi/README.md): revenue CSV, DAX measures, and native report/dashboard creation instructions. The Power BI page can embed an existing secure report URL for authorized viewers.
+- [`integrations/salesforce`](integrations/salesforce/README.md): sample opportunities and native Salesforce report/dashboard instructions. The Salesforce page opens your configured dashboard in Salesforce.
+
+These files are setup assets, not published Power BI or Salesforce dashboards. Creating native dashboards requires the corresponding tools/accounts. Live service access has not been configured or verified. Dashboard URLs are held only in browser memory and reset on reload or switching pages; no secrets are required by the previews.

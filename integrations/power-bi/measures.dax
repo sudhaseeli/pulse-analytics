@@ -1,0 +1,5 @@
+// Create each measure separately on the Revenue table in Power BI Desktop.
+Total Revenue = SUM(Revenue[Revenue])
+Revenue Target = SUM(Revenue[Target])
+Target Attainment = DIVIDE([Total Revenue], [Revenue Target], 0)
+Revenue Variance = [Total Revenue] - [Revenue Target]

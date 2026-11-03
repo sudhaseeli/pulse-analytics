@@ -1,0 +1,7 @@
+Name,Owner,StageName,Amount,Probability,CloseDate
+Acme expansion,Jamie Davis,Negotiation,48000,80,2026-06-30
+Northstar annual plan,Alex Chen,Proposal,36000,60,2026-06-30
+Meridian rollout,Sam Rivera,Qualification,24000,25,2026-06-30
+Atlas enterprise,Jamie Davis,Closed Won,62000,100,2026-06-30
+Harbor renewal,Alex Chen,Closed Won,28000,100,2026-06-30
+Summit pilot,Sam Rivera,Closed Lost,18000,0,2026-06-30
